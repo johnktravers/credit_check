@@ -21,7 +21,7 @@ class CreditCard
             dig = digit.to_i
 
             # If even numbered index, multiply digit by two
-            if index % 2 == 0
+            if (num_digits - index) % 2 == 0
 
                 # If double < 10, add double to sum
                 if dig * 2 < 10
